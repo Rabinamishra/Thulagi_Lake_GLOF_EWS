@@ -1,0 +1,7 @@
+parameter,window,threshold,unit,alert_level,status
+rainfall,1hr,20,mm,WATCH,PROTOTYPE
+rainfall,3hr,40,mm,WATCH,PROTOTYPE
+rainfall,6hr,60,mm,WATCH,PROTOTYPE
+rainfall,24hr,100,mm,WATCH,PROTOTYPE
+lake_level_rate,1hr,0.15,m/hr,WATCH,PROTOTYPE
+river_level_rate,1hr,0.10,m/hr,WATCH,PROTOTYPE

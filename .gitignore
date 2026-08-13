@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+
+# Large/raw/generated project data
+data/
+results/
+
+# ArcGIS files
+*.gdb/
+*.gdb/*
+*.lyrx
+
+# Local/system files
+-p/
+.dodsrc
+
+# Temporary files
+0)
+EXCEEDANCE_RATE
+__pycache__/
+*.pyc
+*.pyo
+
+.venv/
+.vscode/
+
+data/
+results/
+
+*.gdb/
+*.gdb/*
+*.lyrx
+
+-p/
+.dodsrc
+
+0)
+EXCEEDANCE_RATE
+
+# ArcGIS project-generated files
+GLOF_EWS/.backups/
+GLOF_EWS/GpMessages/
+GLOF_EWS/ImportLog/
+GLOF_EWS/Index/
+GLOF_EWS/.pyHistory
