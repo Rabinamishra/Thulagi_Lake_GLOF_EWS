@@ -209,7 +209,7 @@ fig_rain.update_layout(
     margin=dict(l=20, r=20, t=20, b=20)
 )
 
-st.plotly_chart(fig_rain, use_container_width=True)
+st.plotly_chart(fig_rain, width="stretch")
 
 # ------------------------------------------------------------
 # WATER LEVEL
@@ -234,7 +234,7 @@ fig_water.update_layout(
     margin=dict(l=20, r=20, t=20, b=20)
 )
 
-st.plotly_chart(fig_water, use_container_width=True)
+st.plotly_chart(fig_water, width="stretch")
 
 st.caption("⚠️ Water-level data shown here are SIMULATED for prototype demonstration.")
 
@@ -260,7 +260,7 @@ fig_area.update_layout(
     margin=dict(l=20, r=20, t=20, b=20)
 )
 
-st.plotly_chart(fig_area, use_container_width=True)
+st.plotly_chart(fig_area, width="stretch")
 
 # ------------------------------------------------------------
 # MAP
