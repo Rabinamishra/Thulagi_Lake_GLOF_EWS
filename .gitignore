@@ -1,4 +1,6 @@
+# ================================
 # Python
+# ================================
 __pycache__/
 *.pyc
 *.pyo
@@ -6,48 +8,42 @@ __pycache__/
 venv/
 env/
 
+# ================================
 # IDE
+# ================================
 .vscode/
 
+# ================================
+# Backup / temporary files
+# ================================
+backup_before_cleanup/
+-p/
+0)
+EXCEEDANCE_RATE
+
+# ================================
 # Large/raw/generated project data
+# ================================
 data/
 results/
 
+# ================================
 # ArcGIS files
+# ================================
 *.gdb/
 *.gdb/*
 *.lyrx
 
-# Local/system files
--p/
-.dodsrc
-
-# Temporary files
-0)
-EXCEEDANCE_RATE
-__pycache__/
-*.pyc
-*.pyo
-
-.venv/
-.vscode/
-
-data/
-results/
-
-*.gdb/
-*.gdb/*
-*.lyrx
-
--p/
-.dodsrc
-
-0)
-EXCEEDANCE_RATE
-
+# ================================
 # ArcGIS project-generated files
+# ================================
 GLOF_EWS/.backups/
 GLOF_EWS/GpMessages/
 GLOF_EWS/ImportLog/
 GLOF_EWS/Index/
 GLOF_EWS/.pyHistory
+
+# ================================
+# Local/system files
+# ================================
+.dodsrc
